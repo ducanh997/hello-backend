@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Nguyen Tuan Anh <bboyadao@gmail.com>, 2019
+# Xavier Ordoquy <xordoquy@linovia.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: Django REST framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 01:08+0700\n"
+"PO-Revision-Date: 2020-10-13 20:02+0000\n"
+"Last-Translator: Xavier Ordoquy <xordoquy@linovia.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/django-rest-framework-1/"
+"django-rest-framework/language/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\settings.py:148
+msgid "English"
+msgstr ""
+
+#: .\settings.py:149
+msgid "Vietnamese"
+msgstr ""
+
+msgid "Invalid username/password."
+msgstr "Sai tên đăng nhập hoặc mật khẩu."
+
+msgid "User inactive or deleted."
+msgstr "Người dùng không còn hoạt động, hoặc đã bị xoá."
+
+msgid "Key"
+msgstr "Khoá"
+
+msgid "User"
+msgstr "Người dùng"
+
+msgid "Created"
+msgstr "Đã tạo"
+
+msgid "Username"
+msgstr "Tên người dùng"
+
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgid "Unable to log in with provided credentials."
+msgstr "Không thể đăng nhập với thông tin đã nhập."
+
+msgid "Must include \"username\" and \"password\"."
+msgstr "Bắt buộc phải có “tên người dùng” và “mật khẩu”."
+
+msgid "You do not have permission to perform this action."
+msgstr "Bạn không được cấp quyền để thực hiện hành động này."
+
+msgid "Not found."
+msgstr "Không tìm thấy."
+
+#, python-brace-format
+msgid "Method \"{method}\" not allowed."
+msgstr "Phương thức “{method}” không được chấp nhận."
+
+msgid "This field may not be blank."
+msgstr "Trường này không được bỏ trống."
+
+msgid "Enter a valid email address."
+msgstr "Nhập một địa chỉ email hợp lệ."
+
+#, python-brace-format
+msgid "Date has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+"Ngày sai định dạng. Dùng một trong những định dạng sau để thay thế: "
+"{format}."
+
+msgid "This list may not be empty."
+msgstr " Danh sách này không thể để trống."
+
+msgid "Value must be valid JSON."
+msgstr "Giá trị bắt buộc phải là định dạng JSON."
+
+msgid "Search"
+msgstr "Tìm kiếm"
+
+msgid "Ordering"
+msgstr "Sắp xếp"
+
+msgid "No items to select."
+msgstr "Không có gì để chọn."
+
+msgid "Invalid page."
+msgstr "Số trang không hợp lệ."
+
+msgid "Authentication credentials were not provided."
+msgstr "Bạn phải đăng nhập để sử dụng tính năng này."
+
+msgid "Invalid token."
+msgstr "Token không hợp lệ."
+
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "Token không hợp lệ. Token không được chứa các khoảng trắng."

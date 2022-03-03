@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Django REST framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 00:49+0700\n"
+"PO-Revision-Date: 2020-10-13 19:45+0000\n"
+"Last-Translator: Xavier Ordoquy <xordoquy@linovia.com>\n"
+"Language-Team: English (http://www.transifex.com/django-rest-framework-1/"
+"django-rest-framework/language/en/)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\settings.py:148
+msgid "English"
+msgstr ""
+
+#: .\settings.py:149
+msgid "Vietnamese"
+msgstr ""
+
+msgid "Invalid basic header. No credentials provided."
+msgstr "Invalid basic header. No credentials provided."
+
+msgid "Invalid basic header. Credentials string should not contain spaces."
+msgstr "Invalid basic header. Credentials string should not contain spaces."
+
+msgid "Invalid basic header. Credentials not correctly base64 encoded."
+msgstr "Invalid basic header. Credentials not correctly base64 encoded."
+
+msgid "Invalid username/password."
+msgstr "Invalid username/password."
+
+msgid "User inactive or deleted."
+msgstr "User inactive or deleted."
+
+msgid "Invalid token header. No credentials provided."
+msgstr "Invalid token header. No credentials provided."
+
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "Invalid token header. Token string should not contain spaces."
+
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr ""
+"Invalid token header. Token string should not contain invalid characters."
+
+msgid "Invalid token."
+msgstr "Invalid token."
+
+msgid "Auth Token"
+msgstr "Auth Token"
+
+msgid "Key"
+msgstr "Key"
+
+msgid "User"
+msgstr "User"
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Token"
+msgstr "Token"
+
+msgid "Tokens"
+msgstr "Tokens"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Unable to log in with provided credentials."
+msgstr "Unable to log in with provided credentials."
+
+msgid "Must include \"username\" and \"password\"."
+msgstr "Must include \"username\" and \"password\"."
+
+msgid "A server error occurred."
+msgstr "A server error occurred."
+
+msgid "Invalid input."
+msgstr "Invalid input."
+
+msgid "Malformed request."
+msgstr "Malformed request."
+
+msgid "Incorrect authentication credentials."
+msgstr "Incorrect authentication credentials."
+
+msgid "Authentication credentials were not provided."
+msgstr "Authentication credentials were not provided."
+
+msgid "You do not have permission to perform this action."
+msgstr "You do not have permission to perform this action."
+
+msgid "Not found."
+msgstr "Not found."
+
+#, python-brace-format
+msgid "Method \"{method}\" not allowed."
+msgstr "Method \"{method}\" not allowed."
+
+msgid "Could not satisfy the request Accept header."
+msgstr "Could not satisfy the request Accept header."
+
+#, python-brace-format
+msgid "Unsupported media type \"{media_type}\" in request."
+msgstr "Unsupported media type \"{media_type}\" in request."
+
+msgid "Request was throttled."
+msgstr "Request was throttled."
+
+#, python-brace-format
+msgid "Expected available in {wait} second."
+msgstr "Expected available in {wait} second."
+
+#, python-brace-format
+msgid "Expected available in {wait} seconds."
+msgstr "Expected available in {wait} seconds."
+
+msgid "This field is required."
+msgstr "This field is required."
+
+msgid "This field may not be null."
+msgstr "This field may not be null."
+
+msgid "Must be a valid boolean."
+msgstr "Must be a valid boolean."
+
+msgid "Not a valid string."
+msgstr "Not a valid string."
+
+msgid "This field may not be blank."
+msgstr "This field may not be blank."
+
+#, python-brace-format
+msgid "Ensure this field has no more than {max_length} characters."
+msgstr "Ensure this field has no more than {max_length} characters."
+
+#, python-brace-format
+msgid "Ensure this field has at least {min_length} characters."
+msgstr "Ensure this field has at least {min_length} characters."
+
+msgid "Enter a valid email address."
+msgstr "Enter a valid email address."
+
+msgid "This value does not match the required pattern."
+msgstr "This value does not match the required pattern."
+
+msgid ""
+"Enter a valid \"slug\" consisting of letters, numbers, underscores or "
+"hyphens."
+msgstr ""
+"Enter a valid \"slug\" consisting of letters, numbers, underscores or "
+"hyphens."
+
+msgid ""
+"Enter a valid \"slug\" consisting of Unicode letters, numbers, "
+"underscores, or hyphens."
+msgstr ""
+"Enter a valid \"slug\" consisting of Unicode letters, numbers, "
+"underscores, or hyphens."
+
+msgid "Enter a valid URL."
+msgstr "Enter a valid URL."
+
+msgid "Must be a valid UUID."
+msgstr "Must be a valid UUID."
+
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr "Enter a valid IPv4 or IPv6 address."
+
+msgid "A valid integer is required."
+msgstr "A valid integer is required."
+
+#, python-brace-format
+msgid "Ensure this value is less than or equal to {max_value}."
+msgstr "Ensure this value is less than or equal to {max_value}."
+
+#, python-brace-format
+msgid "Ensure this value is greater than or equal to {min_value}."
+msgstr "Ensure this value is greater than or equal to {min_value}."
+
+msgid "String value too large."
+msgstr "String value too large."
+
+msgid "A valid number is required."
+msgstr "A valid number is required."
+
+#, python-brace-format
+msgid "Ensure that there are no more than {max_digits} digits in total."
+msgstr "Ensure that there are no more than {max_digits} digits in total."
+
+#, python-brace-format
+msgid ""
+"Ensure that there are no more than {max_decimal_places} decimal places."
+msgstr ""
+"Ensure that there are no more than {max_decimal_places} decimal places."
+
+#, python-brace-format
+msgid ""
+"Ensure that there are no more than {max_whole_digits} digits before the "
+"decimal point."
+msgstr ""
+"Ensure that there are no more than {max_whole_digits} digits before the "
+"decimal point."
+
+#, python-brace-format
+msgid ""
+"Datetime has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+"Datetime has wrong format. Use one of these formats instead: {format}."
+
+msgid "Expected a datetime but got a date."
+msgstr "Expected a datetime but got a date."
+
+#, python-brace-format
+msgid "Invalid datetime for the timezone \"{timezone}\"."
+msgstr "Invalid datetime for the timezone \"{timezone}\"."
+
+msgid "Datetime value out of range."
+msgstr "Datetime value out of range."
+
+#, python-brace-format
+msgid "Date has wrong format. Use one of these formats instead: {format}."
+msgstr "Date has wrong format. Use one of these formats instead: {format}."
+
+msgid "Expected a date but got a datetime."
+msgstr "Expected a date but got a datetime."
+
+#, python-brace-format
+msgid "Time has wrong format. Use one of these formats instead: {format}."
+msgstr "Time has wrong format. Use one of these formats instead: {format}."
+
+#, python-brace-format
+msgid ""
+"Duration has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+"Duration has wrong format. Use one of these formats instead: {format}."
+
+#, python-brace-format
+msgid "\"{input}\" is not a valid choice."
+msgstr "\"{input}\" is not a valid choice."
+
+#, python-brace-format
+msgid "More than {count} items..."
+msgstr "More than {count} items..."
+
+#, python-brace-format
+msgid "Expected a list of items but got type \"{input_type}\"."
+msgstr "Expected a list of items but got type \"{input_type}\"."
+
+msgid "This selection may not be empty."
+msgstr "This selection may not be empty."
+
+#, python-brace-format
+msgid "\"{input}\" is not a valid path choice."
+msgstr "\"{input}\" is not a valid path choice."
+
+msgid "No file was submitted."
+msgstr "No file was submitted."
+
+msgid ""
+"The submitted data was not a file. Check the encoding type on the form."
+msgstr ""
+"The submitted data was not a file. Check the encoding type on the form."
+
+msgid "No filename could be determined."
+msgstr "No filename could be determined."
+
+msgid "The submitted file is empty."
+msgstr "The submitted file is empty."
+
+#, python-brace-format
+msgid ""
+"Ensure this filename has at most {max_length} characters (it has "
+"{length})."
+msgstr ""
+"Ensure this filename has at most {max_length} characters (it has "
+"{length})."
+
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+
+msgid "This list may not be empty."
+msgstr "This list may not be empty."
+
+#, python-brace-format
+msgid "Ensure this field has at least {min_length} elements."
+msgstr "Ensure this field has at least {min_length} elements."
+
+#, python-brace-format
+msgid "Ensure this field has no more than {max_length} elements."
+msgstr "Ensure this field has no more than {max_length} elements."
+
+#, python-brace-format
+msgid "Expected a dictionary of items but got type \"{input_type}\"."
+msgstr "Expected a dictionary of items but got type \"{input_type}\"."
+
+msgid "This dictionary may not be empty."
+msgstr "This dictionary may not be empty."
+
+msgid "Value must be valid JSON."
+msgstr "Value must be valid JSON."
+
+msgid "Search"
+msgstr "Search"
+
+msgid "A search term."
+msgstr "A search term."
+
+msgid "Ordering"
+msgstr "Ordering"
+
+msgid "Which field to use when ordering the results."
+msgstr "Which field to use when ordering the results."
+
+msgid "ascending"
+msgstr "ascending"
+
+msgid "descending"
+msgstr "descending"
+
+msgid "A page number within the paginated result set."
+msgstr "A page number within the paginated result set."
+
+msgid "Number of results to return per page."
+msgstr "Number of results to return per page."
+
+msgid "Invalid page."
+msgstr "Invalid page."
+
+msgid "The initial index from which to return the results."
+msgstr "The initial index from which to return the results."
+
+msgid "The pagination cursor value."
+msgstr "The pagination cursor value."
+
+msgid "Invalid cursor"
+msgstr "Invalid cursor"
+
+#, python-brace-format
+msgid "Invalid pk \"{pk_value}\" - object does not exist."
+msgstr "Invalid pk \"{pk_value}\" - object does not exist."
+
+#, python-brace-format
+msgid "Incorrect type. Expected pk value, received {data_type}."
+msgstr "Incorrect type. Expected pk value, received {data_type}."
+
+msgid "Invalid hyperlink - No URL match."
+msgstr "Invalid hyperlink - No URL match."
+
+msgid "Invalid hyperlink - Incorrect URL match."
+msgstr "Invalid hyperlink - Incorrect URL match."
+
+msgid "Invalid hyperlink - Object does not exist."
+msgstr "Invalid hyperlink - Object does not exist."
+
+#, python-brace-format
+msgid "Incorrect type. Expected URL string, received {data_type}."
+msgstr "Incorrect type. Expected URL string, received {data_type}."
+
+#, python-brace-format
+msgid "Object with {slug_name}={value} does not exist."
+msgstr "Object with {slug_name}={value} does not exist."
+
+msgid "Invalid value."
+msgstr "Invalid value."
+
+msgid "unique integer value"
+msgstr "unique integer value"
+
+msgid "UUID string"
+msgstr "UUID string"
+
+msgid "unique value"
+msgstr "unique value"
+
+#, python-brace-format
+msgid "A {value_type} identifying this {name}."
+msgstr "A {value_type} identifying this {name}."
+
+#, python-brace-format
+msgid "Invalid data. Expected a dictionary, but got {datatype}."
+msgstr "Invalid data. Expected a dictionary, but got {datatype}."
+
+msgid "Extra Actions"
+msgstr "Extra Actions"
+
+msgid "Filters"
+msgstr "Filters"
+
+msgid "navbar"
+msgstr "navbar"
+
+msgid "content"
+msgstr "content"
+
+msgid "request form"
+msgstr "request form"
+
+msgid "main content"
+msgstr "main content"
+
+msgid "request info"
+msgstr "request info"
+
+msgid "response info"
+msgstr "response info"
+
+msgid "None"
+msgstr "None"
+
+msgid "No items to select."
+msgstr "No items to select."
+
+msgid "This field must be unique."
+msgstr "This field must be unique."
+
+#, python-brace-format
+msgid "The fields {field_names} must make a unique set."
+msgstr "The fields {field_names} must make a unique set."
+
+#, python-brace-format
+msgid "Surrogate characters are not allowed: U+{code_point:X}."
+msgstr "Surrogate characters are not allowed: U+{code_point:X}."
+
+#, python-brace-format
+msgid "This field must be unique for the \"{date_field}\" date."
+msgstr "This field must be unique for the \"{date_field}\" date."
+
+#, python-brace-format
+msgid "This field must be unique for the \"{date_field}\" month."
+msgstr "This field must be unique for the \"{date_field}\" month."
+
+#, python-brace-format
+msgid "This field must be unique for the \"{date_field}\" year."
+msgstr "This field must be unique for the \"{date_field}\" year."
+
+msgid "Invalid version in \"Accept\" header."
+msgstr "Invalid version in \"Accept\" header."
+
+msgid "Invalid version in URL path."
+msgstr "Invalid version in URL path."
+
+msgid "Invalid version in URL path. Does not match any version namespace."
+msgstr "Invalid version in URL path. Does not match any version namespace."
+
+msgid "Invalid version in hostname."
+msgstr "Invalid version in hostname."
+
+msgid "Invalid version in query parameter."
+msgstr "Invalid version in query parameter."
