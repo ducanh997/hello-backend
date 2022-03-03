@@ -8,7 +8,7 @@ from django.urls import reverse
 from drf_yasg import openapi
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework.views import APIView
-
+from django.utils.translation import gettext_lazy as _
 from hello_backend.serializers.auth import GoogleLoginSerializer
 from hello_backend.services.auth import (get_access_token_google,
                                          get_user_info_google)
@@ -31,7 +31,7 @@ class GoogleLoginView(APIView):
         ]
     )
     def get(self, request, *args, **kwargs):
-        _logger.info('Test logging')
+        _logger.info(_('Test logging'))
         request_serializer = GoogleLoginSerializer(data=request.GET)
         request_serializer.is_valid(raise_exception=True)
 

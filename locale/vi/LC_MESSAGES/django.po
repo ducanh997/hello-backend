@@ -103,3 +103,6 @@ msgstr "Token không hợp lệ."
 
 msgid "Invalid token header. Token string should not contain spaces."
 msgstr "Token không hợp lệ. Token không được chứa các khoảng trắng."
+
+msgid "Test logging"
+msgstr "Test thử xem có dịch sang tiếng việt được không"
