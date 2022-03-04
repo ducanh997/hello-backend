@@ -25,7 +25,7 @@ from hello_backend.views.board import BoardViewSet
 from hello_backend.views.workspace import WorkspaceViewSet
 
 
-class CustomerGeneratorSchema(OpenAPISchemaGenerator):
+class CustomSchemaGenerator(OpenAPISchemaGenerator):
     def get_operation(self, *args, **kwargs):
         operation = super().get_operation(*args, **kwargs)
         accept_language_header = openapi.Parameter(
@@ -47,7 +47,7 @@ schema_view = get_schema_view(
         contact=openapi.Contact(email="ducanhk60uet@gmail.com"),
     ),
     public=True,
-    generator_class=CustomerGeneratorSchema,
+    generator_class=CustomSchemaGenerator,
     authentication_classes=()
 )
 
